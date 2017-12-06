@@ -25,3 +25,15 @@ let app4 = new Vue({
         todos: [ 'pomme', 'poire', 'ananas']
     }
 })
+
+let app5 = new Vue({
+    el: "#app5",
+    data: {
+        message: "coucou"
+    },
+    methods: {
+        methode: function(){
+            this.message = this.message.split('').reverse().join('')
+        }
+    }
+})
