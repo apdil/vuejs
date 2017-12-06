@@ -5,9 +5,9 @@ let app = new Vue({
     }
 })
 
-let lol = new Vue({
-    el: "#lol",
+let app2 = new Vue({
+    el: "#app2",
     data: {
-        message: 'tarée'
+        message: 'vous avez affichez cette page le ' + new Date().toLocaleString()
     }
 })
